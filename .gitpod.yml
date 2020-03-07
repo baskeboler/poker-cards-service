@@ -1,0 +1,5 @@
+tasks:
+  - init: lein repl
+    command: lein run-dev
+image:
+  file: .gitpod.Dockerfile
