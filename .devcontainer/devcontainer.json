@@ -17,7 +17,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"betterthantomorrow.calva"
+				"betterthantomorrow.calva",
+				"GitHub.copilot"
 			]
 		}
 	}

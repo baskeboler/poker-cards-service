@@ -30,3 +30,8 @@ clojure -Ttools list
 
 RUN sudo apt-get update && \
     sudo apt-get install -y lsb-release
+
+RUN wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein && \
+    chmod +x lein && \
+    sudo mv lein /usr/local/bin/lein && \
+    lein
